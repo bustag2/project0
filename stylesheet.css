@@ -1,0 +1,53 @@
+@media(min-width:500px){
+  body {
+    width: auto;
+  }
+}
+@media(max-width:499px){
+  body {
+  width: 50%;
+  }
+}
+
+.container{
+  padding: 10px;
+}
+
+#nav {
+  width: 50%;
+  margin: 20px;
+  background-color:lightgray
+
+}
+
+#section {
+margin: 20px;
+width: 50%;
+background-color: lightblue;
+}
+
+ol.a, ul.a {
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+}
+
+h1 {
+  padding: 20px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  background-color: lightgray;
+}

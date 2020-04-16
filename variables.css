@@ -1,0 +1,40 @@
+#nav, #section {
+  font-family: arial;
+  font-size: 12px;
+  margin: 20px;
+  padding: 20px;
+  width: 50%; }
+
+@media (min-width: 500px) {
+  body {
+    width: auto; } }
+@media (max-width: 499px) {
+  body {
+    width: 50%; } }
+.container {
+  padding: 10px; }
+
+#nav {
+  background-color: lightgray; }
+
+#section {
+  background-color: lightblue; }
+
+div ol.a, div ul.a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold; }
+div h1 {
+  padding: 20px; }
+div table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%; }
+div th, div td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center; }
+div th {
+  background-color: lightgray; }
+
+/*# sourceMappingURL=variables.css.map */

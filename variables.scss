@@ -1,0 +1,63 @@
+$color: lightblue;
+$color2:lightgray;
+
+%layout{
+  font-family: arial;
+  font-size: 12px;
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+@media(min-width:500px){
+  body {
+    width: auto;
+  }
+}
+@media(max-width:499px){
+  body {
+  width: 50%;
+  }
+}
+
+.container{
+  padding: 10px;
+}
+
+#nav {
+  @extend %layout;
+  background-color:$color2;
+
+}
+
+#section {
+@extend %layout;
+background-color: $color;
+}
+div{
+ol.a, ul.a {
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+}
+
+h1 {
+  padding: 20px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  background-color: $color2;
+}
+}
